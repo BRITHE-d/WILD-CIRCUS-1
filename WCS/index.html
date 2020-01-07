@@ -1,0 +1,133 @@
+<!-- Afin de valider ton code HTML, fais un copier-coller de ce dernier et rends-toi sur https://validator.w3.org/#validate_by_input.
+Click sur l'onglet "Validate by Direct Input" et colle ton code HTML, click ensuite sur le bouton "Check", et tu verras ensuite (si tu en as) les erreurs HTML s'afficher plus bas.
+Tu peux jeter un oeil par ici pour en savoir un peu plus: https://www.243tech.com/valider-vos-codes-html-et-css-sur-validator-w3-org/ -->
+
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Wild Circus</title>
+</head>
+
+<body>
+    <header>
+      <h1>Wild Circus</h1>
+      <hr>
+      <nav>
+        <ul>
+            <li><a href="#Performances">Performances</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Prices">Prices</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+
+    <section class="section1">
+      <h2 id="Performances"><i class="fas fa-theater-masks"></i>Performances</h2>
+      <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+      <ul>
+        <!-- performance 1 -->
+        <li>
+            <h3>Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+         </li>
+        <!-- performance 2 -->
+         <li>
+            <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+         </li>
+         <!-- performance 3 -->
+         <li>
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section class="section2">
+      <h2 id="AboutUs"><i class="fas fa-child"></i>About Us</h2>
+
+      <p>Wild Circus is one of the most largest circus. The first edition took place in 2013 the date of his creation.</p>
+      <p>Since the creation Wild Circus has grown and developped a strong community.</p>
+      <p>The strenght of Wild Circus is to change every years with a new universe and new theme.</p>
+      <p>Wild Circus provide opportunities to show off, trust, dream, laugh for people.</p>
+      <p>Our crew and our animals are very well trained.</p>
+      <p>This year new incredible animals will perform.</p>
+      <p><b><i>Hope we can see you soon !</i></b></p>
+
+    </section>
+
+    <hr/>
+
+    <section class="section3">
+      <h2 id="Prices"><i class="fas fa-dollar-sign"></i>Prices</h2>
+
+      <table>
+        <caption></caption>
+        <thead>
+          <tr>
+            <th><i>*price per person</i></th>
+            <th>Adults</th>
+            <th>Kids (under 12 years old)</th>
+            <th>Groups (10+ people)</th>
+            <th>Schools</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Weeks (Wednesday not included)</th>
+            <td>8$</td>
+            <td>4$</td>
+            <td>7.50$</td>
+            <td>6$</td>
+          </tr>
+          <tr>
+            <th>Weekend & Wednesday</th>
+            <td>10$</td>
+            <td>6$</td>
+            <td>9.50$</td>
+            <td>8$</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <hr/>
+
+    <section class="section3">
+      <h2 id="Contact"><i class="fas fa-envelope"></i>Contact Us</h2>
+
+      <div class="container">
+
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="your name..." id="name">
+
+          <label for="email">E-mail</label>
+          <input type="email" name="email" placeholder="your email..." id="email">
+
+          <label for="message">Message</label>
+          <textarea name="message" rows="8" cols="80" placeholder="your message..." id="message"></textarea>
+
+          <input type="submit" value="Send !">
+
+      </div>
+
+    </section>
+
+    <footer>
+      <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr) ainsi que le lien vers ton profil public France.ioi (avec les 16 premiers exercies de réalisés).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+      <p>Wild Circus by THELLIER Brian - <a href="http://www.france-ioi.org/user/perso.php?sLogin=brithe" target="_blank">France-IOI</a> - <a href="https://wildcodeschool.fr/" target="_blank">Wild Code School</a> - 10/07/2019</p>
+
+    </footer>
+</body>
+</html>

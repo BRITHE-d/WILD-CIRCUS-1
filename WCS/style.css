@@ -1,0 +1,206 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background: #333
+
+}
+
+/* POLICE ECRITURE*/
+h1, h2, ul li a{
+  font-family: 'Amatic SC', sans-serif;
+}
+
+/* TITRE */
+h1{
+  padding-left: 40px;
+  background-color: #333;
+  color: white;
+  font-size: 65px;
+
+}
+
+/* NAVBAR */
+nav ul li{
+  display: inline;
+  font-size: 30px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #111;
+}
+
+/* ICONS */
+i{
+  margin-right: 25px
+}
+
+/* TITRE SECTION 1 */
+.section1 h2{
+  padding: 14px 16px;
+  color: white;
+  font-size: 60px;
+  padding-left: 40px;
+
+}
+
+/* LISTE SECTION 1 */
+.section1 ul{
+  display: flex;
+  font-size: 30px;
+  list-style-type: none;
+  color:white;
+  text-align: center;
+  margin: 50px;
+  font-family: "montserrat", sans-serif;
+
+}
+
+/* SECTION 2 */
+.section2 h2{
+  padding: 14px 16px;
+  color: white;
+  font-size: 60px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+
+}
+
+.section2 p{
+  text-align: center;
+  font-size: 30px;
+  color:white;
+  font-family: "montserrat", sans-serif;
+  margin: 10px;
+  text-align: left;
+  margin-left: 50px;
+
+}
+
+/* SECTION 3 */
+.section3 h2{
+  padding: 14px 16px;
+  color: white;
+  font-size: 60px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+
+}
+
+/* TABLEAU SECTION 3 */
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  margin-left: 40px;
+  margin-bottom: 50px;
+
+}
+
+/* SECTION 4 */
+.section4 h2{
+  padding: 14px 16px;
+  color: white;
+  font-size: 60px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+
+}
+
+/* CONTACT US FORM */
+
+label{
+  color: #333;
+  font-size: 20px;
+  font-family: "montserrat", sans-serif;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "montserrat", sans-serif;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "montserrat", sans-serif;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: #333;
+  padding: 6px 10px;
+  border: 1px solid #ccc;;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #333;
+  color: white;
+}
+
+footer{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+}
+
+a{
+  color: white;
+}
